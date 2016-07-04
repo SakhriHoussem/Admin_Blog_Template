@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">    <link rel="stylesheet" href="chosen/chosen.min.css">
+    <link rel="stylesheet" href="summernote-master/dist/summernote.css">
+    <title>Setting</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-SH ">
+        <div class="container-fluid ">
+            <div class="navbar-header">
+
+                <button type="button" id="button-menu" class="navbar-toggle collapsed pull-left" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand ">logo.com</div>
+            </div>
+        </div>
+    </nav>
+</header>
+<section>
+    <div id="side-menu" class="col-xs-2 hidden-xs col-sm-1  side-menu col-md-2 padding-top bg2">
+        <ul class="margin-top side-menu-list">
+            <li>
+                <span class="visible-sm visible-xs fa fa-search"></span>
+                <div class="input-group has-feedback hidden-xs hidden-sm col-xs-12">
+                    <input type="text" class=" form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default">Go!</button>
+                    </div>
+                </div>
+            </li>
+            <a  class="" href="index.html">
+                <li><i class="fa fa-tachometer "></i> <span class="hidden-xs  hidden-sm">Dashboard</span>
+                </li>
+            </a>
+            <a  class=""  role="button" data-toggle="collapse" href="#article-aria" aria-controls="#article-aria">
+                <li><span class="label label-success pull-right">25</span><i class="fa fa-list-alt"> </i> <span  class="hidden-xs hidden-sm">Articles</span> </li>
+            </a>
+            <ul class="collapse" id="article-aria">
+                <a href="new_article.html"><li>New article</li></a>
+                <a href="view_article.html"><li>View article</li></a>
+            </ul>
+            <a   role="button" data-toggle="collapse" href="#comment-aria" aria-controls="#comment-aria">
+                <li><i class="fa fa-comment"> </i> <span class="hidden-xs hidden-sm">Comments</span>
+                </li>
+            </a>
+            <ul class="collapse" id="comment-aria">
+                <a href="approved.html"><li><span class="label label-success pull-right">2</span>approved </li></a>
+                <a href="unpproved.html"><li><span class="label label-warning pull-right">10</span>Unapproved </li></a>
+            </ul>
+            <a  class="" href="commenters.html"><li><i class="fa fa-user"> </i> <span class="hidden-xs  hidden-sm">Commenters</span></li></a>
+            <a  class="" href="tags.html"><li><i class="fa fa-tags"> </i> <span class="hidden-xs  hidden-sm">Tags</span></li></a>
+            <a  class="" href="setting.html"><li class="active"><i class="fa fa-cogs"> </i> <span class="hidden-xs hidden-sm">Settings</span></li></a>
+        </ul>
+
+    </div>
+    <div id="content" class="col-sm-11 col-xs-12 content col-md-10 margin-top">
+        <div class="contenu margin-bottom">
+            <h4 class="page-title">Setting</h4>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Site Name</h3>
+                    <p>This is parmanently show on the top left corner of navigation</p>
+                    <input type="text" required name="" class="form-control">
+                    <hr>
+                    <h3>Post Per Page</h3>
+                    <p>Control Total of blogs shown on the blog index page.</p>
+                    <input type="number" required name="" class="form-control input-small">
+                    <hr>
+                    <h3>Under maintenance</h3>
+                    <p>Redirect all requests to a a holding page.</p>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" required name="">
+                            Blog is under maintenace
+                        </label>
+                    </div>
+                    <hr>
+                    <h3>Prevent Commenting</h3>
+                    <p>Prevent or Enable visitors form leaving comments.</p>
+                    <select name="" id="" class="form-control input-small">
+                        <option value="">active</option>
+                        <option value="">desable</option>
+                    </select>
+                    <hr>
+                    <h3>Tags Visibility</h3>
+                    <p>Enable or Disable Tag visibility on all blog posts.</p>
+                    <select name="" id="" class="form-control input-small">
+                        <option value="">active</option>
+                        <option value="">desable</option>
+                    </select>
+                    <button class="margin-top btn btn-success ">Save Setting</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="chosen/chosen.jquery.min.js"></script>
+<script src="summernote-master/dist/summernote.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

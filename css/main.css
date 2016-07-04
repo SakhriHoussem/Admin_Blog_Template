@@ -1,0 +1,224 @@
+body{
+    background-color: #f5f5f5;
+    height: 100%;
+}
+/* color theme start */
+.btn-sh{
+    background-color: #0c98cf;
+    border-color: #2066bf;
+}
+.btn-sh :hover,.btn-sh :focus{
+    background-color: #0c98cf;
+    border-color: #2066bf;
+}
+.btn-sh :active{
+    background-color: #0c98cf;
+    border-color: #2066bf;
+}
+/* color theme end */
+/* chosen input width start*/
+.chosen-container,.chosen-container-multi{
+    width: 100% !important;
+}
+@media (min-width: 480px) {
+.input-small {
+    width: 100px !important;
+}
+}
+/* chosen input width end*/
+.page-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: darkgray;
+}
+.margin-top{
+    margin-top: 20px !important;
+}
+
+.margin-bottom{
+    margin-bottom: 20px !important;
+}
+hr{
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+.padding-bottom{
+    padding-bottom: 20px;
+}
+.padding-top{
+    padding-top: 20px;
+}
+.padding{
+    padding: 10px !important;
+}
+.margin{
+    margin: 10px !important;
+}
+.gras{
+    font-weight: bold;
+}
+#side-menu{
+    padding: 0;
+    border-top-right-radius: 0;
+}
+.side-menu-list{
+    list-style: none;
+    padding: 0;
+}
+
+.active{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.row-hover:hover{
+    background-color: ghostwhite;
+}
+/*article-list start */
+.article-list p {
+    margin: 5px;
+}
+small {
+    color: darkgrey !important;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+/*article-list end */
+/* navbar start --------------------------*/
+
+.navbar-menu li:hover{
+    background-color: yellowgreen;
+    border-top: black solid ;
+    border-bottom: yellowgreen solid;
+}
+
+.navbar-toggle span{
+    background: red;
+}
+
+.navbar-search-block{
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+
+.navbar-menu li{
+    font-size: 20px ;
+}
+
+.navbar-menu li a{
+    text-decoration: none;
+    color: white;
+}
+header .navbar-SH{
+    background-color: #0c98cf;
+    border-color: #2066bf;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+
+/* navbar end --------------------------*/
+/* Contenu start --------------------------*/
+.contenu{
+    border: 3px solid gainsboro;
+    border-left-width: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+/* Contenu end --------------------------*/
+/* navbar start --------------------------*/
+#navbar-menu{
+    font-weight: bold;
+}
+#navbar-menu .dropdown-menu{
+    padding: 0;
+}
+#navbar-menu .dropdown-menu li a{
+    margin: 0;
+    padding: 10px 20px 10px 20px ;
+    font-weight:bold ;
+}
+#navbar-menu .divider{
+    margin: 0;
+}
+.dropdown-menu>li>a{
+    margin: 10px 20px;
+}
+#navbar-menu .nav .open>a,#navbar-menu  .nav .open>a:focus
+,#navbar-menu  .nav .open>a:hover,#navbar-menu .nav>li>a:focus,#navbar-menu  .nav>li>a:hover{
+    background-color: transparent;
+}
+/* navbar end --------------------------*/
+/* side-menu-cpanel start --------------------------*/
+.side-menu{
+    box-shadow: #0f0f0f 1px 1px 1px;
+    height: 100%;
+}
+
+.side-menu a {
+    font-weight: bold;
+}
+.side-menu ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+.side-menu ul ul li{
+    border: 0;
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+}
+.side-menu ul ul{
+    padding: 0;
+    border-left: 5px solid white ;
+}
+.side-menu-list li,.side-menu ul ul{
+    border-bottom: 1px solid white ;
+}
+.side-menu li:hover{
+    background-color: #1b6d85;
+}
+/* side-menu end --------------------------*/
+
+/* margin start --------------------------*/
+.no-margin{
+    margin: 0 !important;
+}
+.no-margin-top{
+    margin-top: 0 !important;
+}
+.no-margin-bottom{
+    margin-bottom: 0 !important;
+}
+/* margin end --------------------------*/
+/* padding start --------------------------*/
+.no-padding{
+    padding: 0 !important;
+}
+/* padding end --------------------------*/
+/* bg2 start --------------------------*/
+.bg2 {
+    color: white;
+    background-color: #122b40 ;
+}
+.bg2 a{
+    color: white;
+}
+.bg2 a:hover {
+     color: white;
+     text-decoration: none;
+
+ }
+/* bg2 end --------------------------*/
+/* display table start --------------------------*/
+.display-table {
+    display: table;
+}
+.display-row{
+    display: table-row;
+}
+.display-cell{
+    display: table-cell;
+}
+/* display table end --------------------------*/
