@@ -110,13 +110,14 @@ small {
 }
 header .navbar-SH{
     background-color: #0c98cf;
-    border-color: #2066bf;
     border-radius: 0;
     margin-bottom: 0;
 }
+header .navbar-SH .navbar-brand{
+    color: #fff;
+}
 
-
-/* navbar end --------------------------*/
+    /* navbar end --------------------------*/
 /* Contenu start --------------------------*/
 .contenu{
     border: 3px solid gainsboro;
